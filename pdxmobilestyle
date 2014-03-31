@@ -1,0 +1,187 @@
+h2, h3 {
+color: #0e2b6f;
+}
+.accordion_li_span {
+color: #000000;
+margin-top: 6px;
+font-size: 18px;
+}
+div.accordion {
+background-color:#ffffff;
+padding-left: 5px;
+border-radius: 5px;
+border: 1px solid #000000;
+padding: 8px;
+}
+.l-row--height {
+min-height: 480px;
+margin-top: 75px;
+}
+
+div.well--header {
+padding-bottom: 10px;
+}
+p.brand {
+float: none;
+}
+#aaron {
+float:none;
+}
+
+body {
+background: rgb(243,226,199); /*Old browsers */
+background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,226,199,1)), color-stop(50%,rgba(193,158,103,1)), color-stop(51%,rgba(182,141,76,1)), color-stop(100%,rgba(233,212,179,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+
+}
+
+.valuelist {
+background-color: #787878;
+padding-left: 5px;
+border-radius: 5px;
+border: 2px solid #ffffff;
+}
+
+/*this is pull the divisions on either side of the carousel down without breaking the site at smaller widths */
+@media (min-width: 737px) {
+ .fix-40 {
+padding-top: 60px;
+ } 
+}
+
+
+.valuelist_h4, .valuelist_ol {
+color: #ffffff;
+}
+.valuelist_ol {
+}
+a.accordion-toggle {
+font-size: 150%;
+font-weight: 800;
+color:#0e2b6f;
+}
+a.accordion-toggle:hover {
+color: #3f63b7;
+}
+.accordion-inner td {
+min-width: 55px;
+}
+
+i {
+position: relative;
+top: 4px;
+}
+.comment_text {
+background-color: #ffffff;
+border-radius: 5px;
+border: 1px solid #000000;
+padding: 8px;
+margin-bottom: 25px;
+}
+.comment_auth {
+font-size: 120%;
+}
+.icon-comment {
+position: relative;
+top: -2px;
+left:3px;
+margin-right: 5px;
+}
+.affordable {
+background:#0e2b6f url('../img/peel.png') no-repeat fixed left top;
+color: #ffffff;
+border-radius: 5px;
+border: 2px solid #ffffff;
+padding: 5px;
+font-size: 150%;
+text-align:center;
+line-height:120%;
+}
+
+footer {
+background-color: #787878;
+height: 108px;
+width: 100%;
+}
+footer_nav a{
+font-weight: 500;
+}
+.copyright {
+clear:left;
+}
+
+.horizontal_ul li {
+color: #ffffff;
+display: block;
+float: left;
+padding-right: 16px;
+margin-top: 40px;
+}
+.horizontal_li {
+color: #0e2b6f;
+font-size:120%;
+}
+.horizontal_li-footer li {
+background-color: #787878;
+}
+
+.contact-form input {
+width:325px;
+}
+.contact--name, .contact--phone {
+min-width: 175px;
+}
+.contact--message {
+min-width: 200px;
+}
+blockquote {
+font-family: tahoma, serif;
+}
+.nav-header: {
+min-height: 400px;
+}
+li.nav-header {
+font-size:125%;
+}
+
+footer li, footer a, footer p{
+color: #fff;
+}
+.well--value-prop {
+background-color: #787878; 
+color: #eeeeee;
+font-size: 140%;
+}
+.value-prop_blockquote {
+text-align: center;
+}
+.well--header {
+padding-top: 0;
+padding-bottom: 0;
+padding-right: 0;
+}
+
+.logo {
+border-bottom: 3px solid #333;
+}
+.logo_span {
+border-bottom: none;
+clear: left;
+}
+
+.team-photo {
+margin-top: 25px;
+}
+.footer_logo {
+margin-top:10px;
+margin-left:5px;
+width:252px;
+}
+.carousel-caption {
+min-height: 70px;
+}
