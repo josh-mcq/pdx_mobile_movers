@@ -1,0 +1,100 @@
+
+
+/* Accordion styles (static) */
+
+ul.accordion {
+  background-color: #3E3E55;
+  border: 1px solid #FFF;
+  border-top: none;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1em;
+  position: relative; /* Forces the bottom border of the h2 to display in IE */
+}
+
+ul.accordion li {
+  clear: left;
+  position: relative;
+}
+
+ul.accordion h2 {
+  background-color: #178fbf;
+  border: 1px solid #FFF;
+  border-width: 1px 0;
+  font-size: 1.5em;
+  margin: 0 -0.667em -1px;
+}
+
+ul.accordion h2 a:link, ul.accordion h2 a:visited {
+  color: #fff;
+  display: block;
+  margin: 1px;
+  padding: 0 0.667em;
+  text-decoration: none;
+}
+
+/* Accordion styles (dynamic) */
+
+ul.accordion li.collapsed * {
+  position: absolute;
+  left: -10000px;
+}
+
+ul.accordion li.collapsed h2, ul.accordion li.expanded h2,
+ul.accordion li.collapsed h2 a:link, ul.accordion li.collapsed h2 a:visited,
+ul.accordion li.expanded h2 a:link, ul.accordion li.expanded h2 a:visited {
+  position: static;
+}
+
+ul.accordion li.collapsed h2 a:hover, ul.accordion li.collapsed h2 a:focus,
+ul.accordion li.collapsed h2 a:active,
+ul.accordion li.expanded h2 a:link, ul.accordion li.expanded h2 a:visited {
+  background-color: #3e3eff;
+}
+
+/* Accordion content styles (static) */
+
+ul.accordion h3 {
+  font-size: 1.1em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+ul.accordion p {
+  display: inline;
+  float: left;
+  clear: left;
+  margin: 1em 0 0 0;
+}
+ul.accordion td, ul.accordion p {
+color: #ddd;
+}
+ul.accordion div.links {
+  margin: 1em 0 1em 50%;
+}
+
+div.links ul {
+  list-style: none;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+div.links li {
+  clear: none;
+  display: inline;
+  margin: 0 3em 0 0;
+  position: static;
+}
+#backhome {
+border: 2px solid #fff;
+background-color: #888;
+margin-top:50px;
+margin-left:50px;
+width: 12%;
+padding: 1em;
+}
+#backhome a {
+font-size:20px;
+padding:1em;
+}
